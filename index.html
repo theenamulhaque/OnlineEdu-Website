@@ -26,12 +26,13 @@
         <nav class="navbar navbar-expand-lg bg-light py-3">
             <div class="container">
               <a class="navbar-brand order-1 order-sm-0 order-md-0 order-lg-0" href="#">Navbar</a>
-              <button class="navbar-toggler order-3 order-sm-3 order-md-3 order-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+
+                  <button class="navbar-toggler order-3 order-sm-3 order-md-3 order-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0"> 
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
                   <li class="nav-item px-1">
                     <a class="nav-link active text-secondary fs-6" aria-current="page" href="#">Home</a>
                   </li>
@@ -53,7 +54,9 @@
                 </ul>
               </div>
 
-              <button class="btn btn-outline-info order-2 order-sm-2 order-md-2 order-lg-2 border-info py-2 px-5 fw-semibold" type="submit">Register</button>
+              <div class="register-btn order-2">
+                <button class="btn btn-outline-info order-sm-2 order-md-2 order-lg-2 border-info py-2 px-5 fw-semibold ms-5" type="submit" style="margin-left: 120px !important;">Register</button>
+              </div>
 
             </div>
           </nav>
@@ -144,25 +147,27 @@
 
     <main>
         <!-- Courses Code Start -->
-        <section class="courses" style="height: 100vh; padding: 80px 0px;">
-            <div class="container">
+        <section class="courses mt-5">
+            <div class="container p-0">
                 <div class="row">
                    <div class="course-titlebox d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="fs-1 fw-bold text-center">Explore Our Popular<br> Online Courses</h1>
-                        <p class="text-center fs-6 text-secondary">Online education courses are a good way to learn new skills.</p>
+                        <h1 class="fw-bold fs-3 text-center mt-5">Explore Our Popular<br> Online Courses</h1>
+                        <p class="text-center fs-6 text-secondary pb-4">Online education courses are a good way<br> to learn new skills.</p>
                    </div> 
                     <div class="col-lg-6 col-12 col-sm-12 ol-md-12">
                         <!--  -->
+                        <!--  -->
                         <div class="card mb-3">
                             <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                              <div class="col-md-4 col-12">
+                                <img src="image/course/course-1.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
                               </div>
-                              <div class="col-md-8">
+                              <div class="col-md-8 col-12">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                  <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                  <p class="card-text fw-bolder text-info">Price: 20$</p>
                                 </div>
                               </div>
                             </div>
@@ -170,94 +175,473 @@
                         <!--  -->
                         <!--  -->
                         <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+                          <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                              <img src="image/course/course-2.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                  and make up the bulk of the card.</p>
+                                <p class="card-text fw-bolder text-info">Price: 20$</p>
                               </div>
                             </div>
                           </div>
+                        </div>
                         <!--  -->
                         <!--  -->
                         <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+                          <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                              <img src="image/course/course-3.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                  and make up the bulk of the card.</p>
+                                <p class="card-text fw-bolder text-info">Price: 20$</p>
                               </div>
                             </div>
                           </div>
+                        </div>
                         <!--  -->
                         <!--  -->
                     </div>  
+
+                    <!-- ====right part=== -->
+
                     <div class="col-lg-6 col-12 col-sm-12 ol-md-12">
                         <!--  -->
                         <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+                          <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                              <img src="image/course/course-4.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                  and make up the bulk of the card.</p>
+                                <p class="card-text fw-bolder text-info">Price: 20$</p>
                               </div>
                             </div>
                           </div>
+                        </div>
                         <!--  -->
                         <!--  -->
                         <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+                          <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                              <img src="image/course/course-5.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                  and make up the bulk of the card.</p>
+                                <p class="card-text fw-bolder text-info">Price: 20$</p>
                               </div>
                             </div>
                           </div>
+                        </div>
                         <!--  -->
                         <!--  -->
                         <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+                          <div class="row g-0">
+                            <div class="col-md-4 col-12">
+                              <img src="image/course/course-6.png" class="img-fluid rounded-start w-100 h-100" style="object-fit: cover;" alt="...">
+                            </div>
+                            <div class="col-md-8 col-12">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold pt-4">Fundamental of UI/UX Design</h5>
+                                <p class="card-text" style="font-size: 13px;">Some quick example text to build on the card title
+                                  and make up the bulk of the card.</p>
+                                <p class="card-text fw-bolder text-info">Price: 20$</p>
                               </div>
                             </div>
                           </div>
+                        </div>
                         <!--  -->
                         <!--  -->
-                    </div>  
+                    </div>
+                      <!-- See More Question Button Section -->
+                      <div class="text-center pt-5">
+                        <button class="btn btn-info py-2 px-4 fs-6 fw-semibold">See More Cources</button>
+                      </div>
                 </div>
             </div>
-
         </section>
         <!-- Courses Code End -->
+
+        <!-- Explore Elearning Section Start -->
+
+        <section class="explore pt-5">
+          <div class="container p-0">
+              <div class="row py-3">
+                <!--  -->
+                <div class="col-lg-6 col-12 col-md-6 p-0">
+                  <div class="explore-leftimg p-0">
+                    <img src="image/working.png" class="img-fluid w-100 p-0 rounded-start" alt="">
+                  </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-6 col-12 col-md-6 d-flex flex-column justify-content-center align-content-center ps-3 rounded-end" style="background-color: #f4fafd;">
+                  <div class="explore-righttext">
+                    <h2 class="fw-bold fs-3 pb-2 pt-3 px-3">Explore The elearning</h2>
+                      <p class="pb-3 px-3" " style="font-size: 13px; line-height: 18px;">With so many schools across the UK currently closed, teachers and students are taking advantage of e-learning methods to continue their studies from home. <br><br>
+  
+                        Even before this recent crisis, many schools were already strong champions of edtech in the classroom, and creating a seamless and flexible learning experience through the use of digital platforms.</p>
+                        <div class="d-flex flex-wrap justify-content-start pb-3 px-3">
+                          <div class="pe-4">
+                            <h3 class="fw-bold">3.2K+ <br><span class="text-secondary fs-6">Online Courses</span></h3>
+                          </div>
+                          <div class="pe-4">
+                            <h3 class="fw-bold">600+ <br><span class="text-secondary fs-6">Expert Member</span></h3>
+                          </div>
+                          <div class="pe-4">
+                            <h3 class="fw-bold">1k+ <br><span class="text-secondary fs-6">Rating & Review</span></h3>
+                          </div>       
+                        </div>
+  
+                        <div class="explore-btn pb-2 px-3">
+                          <button class="btn btn-info fw-semibold fs-6">Read More</button>
+                        </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+          </div>
+      </section>
+
+        <!-- Explore Elearning Section End -->
+
+        <!-- Join Section Start -->
+
+        <section class="join pb-5 pt-5 px-4">
+          <div class="container p-0">
+            <div class="row d-flex justify-content-center align-items-center bg-info p-5 rounded-2">
+
+                <!--  -->
+              <div class="col-lg-7 col-12 col-md-12 ">
+                <div class="join-left-inner d-flex flex-column align-items-start justify-content-center">
+                  <h2 class="text-center text-white fw-bold">Ready to join?</h2>
+                  <p class="text-white fs-6">Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson.</p>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-lg-5 col-12 col-md-12 text-center">
+                <div class="join-button d-flex justify-content-end align-items-center">
+                  <!-- MODAL START -->
+                  <!--  -->
+                    <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Redister Now
+                        </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content bg-light">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- form start -->
+                              <form class="column g-3">
+                                <div class="col-md-12">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-12 pb-4">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-12 pb-2">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-info w-100 mb-3">Sign in</button>
+                                </div>
+                              </form>
+                              <!-- form End -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  <!--  -->
+                  <!-- MODAL START -->
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Join Section End -->
+        <!-- Meet Section Start -->
+        <section class="meet-student pt-5 px-4">
+          <div class="container p-0">
+            <div class="meet-student-title">
+              <h1 class="fw-bold fs-3">Meet Our Successfull<br>
+                Students</h1>
+                <p>Meet uour Successfull Students who brings success<br>by completing our course</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-12 col-md-6">
+                <!--  -->
+                  <div class="card mt-5">
+                    <img src="image/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">Tom Brooze</h5>
+                      <a href="#" class="btn btn-transparent text-secondary fs-6 p-0 border-0">Google Flutter</a>
+                    </div>
+                  </div>
+                <!--  -->
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="col-lg-3 col-12 col-md-6">
+                <!--  -->
+                  <div class="card mt-5">
+                    <img src="image/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">Catherene Crook</h5>
+                      <a href="#" class="btn btn-transparent text-secondary fs-6 p-0 border-0">iOS Development</a>
+                    </div>
+                  </div>
+                <!--  -->
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="col-lg-3 col-12 col-md-6">
+                <!--  -->
+                  <div class="card mt-5">
+                    <img src="image/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">Jonathan Michel</h5>
+                      <a href="#" class="btn btn-transparent text-secondary fs-6 p-0 border-0">Android Development</a>
+                    </div>
+                  </div>
+                <!--  -->
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="col-lg-3 col-12 col-md-6">
+                <!--  -->
+                  <div class="card mt-5">
+                    <img src="image/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">Angelina</h5>
+                      <a href="#" class="btn btn-transparent text-secondary fs-6 p-0 border-0">Swift Developer</a>
+                    </div>
+                  </div>
+                <!--  -->
+              </div>
+              <!--  -->
+              <!--  -->
+              
+            </div>
+          </div>
+        </section>
+        
+        <!-- Meet Section End -->
+        <!-- Feedback Section Start -->
+
+        <section class="student-feedback pt-5">
+          <div class="container p-0 position-relative">
+            <!-- title -->
+            <div class="student-feedback-title text-center pt-5 pb-3 px-3">
+              <h1 class="fw-bold fs-3">What Students Says</h1>
+                <p class="text-secondary mb-4">They completed their course and put their satisfaction opinions here.</p>
+            </div>
+            <!--  -->
+            <div class="row px-3">
+              <div class="col-lg-6 col-12 col-md-6 position-relative">
+                <!-- feedbackbox start-1  -->
+                <div class="feedback-inner p-4 border rounded-2">
+                  <!-- <i class="fa fa-angle-left position-absolute top-50 start-0 px-2 py-2 me-4 bg-info rounded-5" aria-hidden="true"></i> -->
+                  <img src="image/leftarrow.svg" alt="" class="position-absolute top-50 start-0 w-25 d-none d-sm-block" style="width: 30px !important; cursor: pointer;">
+                  
+
+                  <!--  -->
+                  <div class="feedback-icon d-flex justify-content-between align-items-center pb-4">
+                    <img src="image/comma.png" class="img-fluid alt="">
+                      <div class="star">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </div>
+                  </div>
+                  <!--  -->
+                  <p class="text-secondary" style="font-size: 13px;">What an amazing experience this course was! Colt is really a master teacher, and the tools shown are very useful and widely used professionally. Also was heavily impressed by the whole team as the assistance during the course was very in-depth. The learning experience was better than my whole engineering degree by a mile. Thank you so much!</p>
+
+                  <div class="feedback-author">
+                    <img src="image/student/student-5.png" alt="">
+                    <div>
+                      <h5 class="fs-6 fw-semibold mt-3">Kim Jonathan</h5>
+                      <p>iOS Instructors</p>
+                    </div>
+                  </div>                  
+                  <!--  -->
+                </div>
+                <!-- feebackbox end-1 -->
+              </div>
+              <!--  -->
+              <!--  -->
+              <div class="col-lg-6 col-12 col-md-6 position-relative">
+
+                <img src="image/rightarrow.svg" alt="" class="position-absolute top-50 start-100 w-25 d-none d-sm-block" style="width: 30px !important; margin-left: -28px; z-index: 1; cursor: pointer;">
+                <!-- feedbackbox start-2  -->
+                <div class="feedback-inner p-4 border rounded-2 position-relative">
+                  <!--  -->
+                  <div class="feedback-icon d-flex justify-content-between align-items-center pb-4">
+                    <img src="image/comma.png" class="img-fluid alt="">
+                      <div class="star">
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                      </div>
+                  </div>
+                  <!--  -->
+                  <p class="text-secondary" style="font-size: 13px;">What an amazing experience this course was! Colt is really a master teacher, and the tools shown are very useful and widely used professionally. Also was heavily impressed by the whole team as the assistance during the course was very in-depth. The learning experience was better than my whole engineering degree by a mile. Thank you so much!</p>
+
+                  <div class="feedback-author">
+                    <img src="image/student/student-6.png" alt="">
+                    <div>
+                      <h5 class="fs-6 fw-semibold mt-3">Angelina</h5>
+                      <p>iOS Instructors</p>
+                    </div>
+                  </div>                  
+                  <!--  -->
+                </div>
+                <!-- feebackbox end-2 -->
+              </div>
+              <!--  -->
+              <!--  -->
+             
+            </div>
+
+          </div>
+
+          <div class="view-all-btn text-center mt-5 px-5 py-2 d-lg-none d-md-none">
+            <a class="btn btn-info text-white fs-6 px-4 py-2" href="">View All</a>
+          </div>
+        </section>
+
+        <!-- Feedback Section End -->
+
+        <!-- FAQ Section Start -->
+
+        <section class="faq">
+          <div class="container">
+
+            <!--  -->
+            <div class="FAQ-title text-center pt-5">
+              <h3 class="fw-bold fs-3 mb-4 mt-5">Frequently Asked Questions<br>about Education</h3>
+                <p class="text-secondary fs-6 mb-5">You will get all the answer by reading below Questions</p>
+            </div>
+            <!--  -->
+
+            <div class="row">
+              <div class="col-lg-12">
+                <!--  -->
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed border mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What is the difference between Flex and Grid?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed border mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Please mention the difference between Bootstrap and tailwind Css Framework?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed border mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What is CSS BOX MODEL?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">In CSS, the term "box model" is used when talking about design and layout.The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model
+                        <div>
+                          <img src="image/css box model.png" class="img-fluid" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed border mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        what is semantic tag in HTML?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!--  -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section End -->
+
+        <!-- Company Logo Section Start -->
+        <section class="company-logo d-none d-sm-none d-md-block d-lg-blck">
+          <div class="container">
+            <!--  -->
+            <div class="FAQ-title text-center pt-5">
+              <h3 class="fw-bold fs-3 mb-5 mt-5">Trusted by over 800+ companies</h3>
+            </div>
+            <!--  -->
+            <div class="row grid d-flex">
+              <!-- 1 -->
+              <div class="logo-image d-flex">
+                <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-1.png" alt=""></div>
+              <!-- 2 -->
+              <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-2.png" alt=""></div>
+              <!-- 3 -->
+              <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-3.png" alt=""></div>
+              <!-- 4 -->
+              <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-4.png" alt=""></div>
+              <!-- 5 -->
+              <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-5.png" alt=""></div>
+              <!-- 6 -->
+              <div class="col-lg-2"><img class="px-2 img-fluid w-75" src="image/company/company-6.png" alt=""></div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </section>
+        <!-- Company Logo Section End -->
     </main>
     <!--================== Main Section Code End ===============-->
 
